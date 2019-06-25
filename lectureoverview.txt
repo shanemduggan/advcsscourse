@@ -1,0 +1,29 @@
+video 6
+
+- the best way to perform a basic reset using the universal selector
+- how to set project-wide font definitions
+- how to clip parts of elements using clip-path
+
+video 7
+
+- the easiest way to center anything with the transform, top and left properties
+
+video 8
+
+- how to create CSS animations using @keyframes and the animation property
+
+video 9 
+
+- what pseudo-elements and pseudo-classes are
+- how and why to use the ::after pseudo-element
+- how to create a creative hover animation effect using the transition property
+
+
+video 12
+    - responsive design
+    - maintainable and scalable code
+    - web performance
+
+video 22 
+    - compiling sass 
+

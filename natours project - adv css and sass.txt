@@ -1,0 +1,131 @@
+implementing the 7-1 architecture with sass
+
+folders: abstract, base, components, layout, pages
+
+
+--------------------------------
+
+
+basic principles of responsive design and layout types
+
+
+basic responsive design principles 
+
+1. fluid grids and layouts
+    to allow content to easily adapt to the current viewport width used to browser the website 
+    uses % rather than px for all layout related lengths 
+
+2. flexible/responsive images 
+    images behave differently than text content, and so we need to ensure that they also adapt nicely to the current viewport 
+
+3. media queries 
+    to change styles on certain viewport widths (breakpoints), allowing us to create different versions of our 
+    website for different widths 
+
+
+layout types 
+    - float layouts (natours project)
+    - flexbox (one dimensional)(trillo)
+    - css grid (overall layout)(nexter)
+
+
+--------------------------------
+
+
+building a custom grid layout 
+
+- how to architect and build a simple grid system 
+- how the attribute selector works 
+- how the :not pseudo-class works 
+- how calc() works, and what's the difference between calc() and simple sass operations 
+
+
+--------------------------------
+
+
+building the about section - part 1 
+
+- thinking about components 
+- how and why to use utility classes 
+- how to use the background-clip property 
+- how to transform multiple properties simultaneously
+- how to use the outline-offset property together with outline 
+- how to style elements that are not hovered while others are 
+
+
+--------------------------------
+
+
+building the features section 
+
+- how to include and use an icon font 
+- another way of creating the "skewed section" design 
+- how and when to use the direct child selector
+
+
+--------------------------------
+
+
+building the tours section 
+
+- how to build an amazing, rotating card 
+- how to use perspective in css 
+- how to use the backface-visibility property 
+- using background blend modes 
+- how and when to use box-decoration-break
+
+
+--------------------------------
+
+
+building the stories section 
+
+- how to make text flow around shapes with shape-outside and float 
+- how to apply a filter to images 
+- how to create a background video covering an entire section 
+- how to use the <video> html element
+- how and when to use the object-fit property
+
+
+--------------------------------
+
+
+building the booking section 
+
+- how to implement solid-colir gradients
+- how the general and adjacent sibling selectors work and why we need them 
+- how to use the ::input-placeholder pseudo-element
+- how and when to use the :focus, :invalid, placeholder-shown and :checked pseudo-classes 
+- techniques to build custom radio buttons 
+
+
+--------------------------------
+
+
+building the footer 
+
+- how to design a simple website footer
+
+
+--------------------------------
+
+
+building the navigation 
+
+- what the checkbox hack is and how it works 
+- how to create custom animation timing functions using cubic bezier curves
+- how to animate solid-color-gradients
+- how and why to use transform-origin
+- in general: create an amazing creative effect
+
+
+--------------------------------
+
+
+building a pure css popup
+
+- how to build a nice popup with only css 
+- how to use the :target pseudo class 
+- how to create boxes with equal height using display: table-cell
+- how to create css text columns
+- how to automatically hyphenate words using hyphens 

@@ -1,0 +1,217 @@
+responsive design 
+
+- fluid layouts
+- media queries
+- responsive images
+- correct units
+- desktop first vs mobile first
+
+maintainable and scalable code
+
+- clean
+- easy to understand
+- growth
+- reusable
+- how to organize files
+- how to name classes
+- how to structure html
+
+web performance 
+
+- less http requests
+- less code
+- compress code 
+- use a css preprocessor 
+- less images 
+- compress images
+
+---------------------------------------------------------
+
+resolve conflicting css declarations (cascade)
+
+    - importance > specificity > source order
+
+importance
+
+1. user !important declarations
+2. author !important delcarations 
+3. author declarations 
+4. user declarations 
+5. default browser declarations
+
+specificity
+
+1. inline styles
+2. IDs
+3. classes, pseudo-classes, attribute
+4. elements, pseudo-elements
+
+source order 
+
+the last delcaration in the code will override all other declarations will be applied 
+
+- CSS declarations marked with !important have the highest prioritity
+- only use !important as a last resource. it's better to use correct specificities - more maintainable code 
+- inline styles will always have priority over styles in external stylesheets
+- a selector that contains 1 ID is more specific than one with 1000 classes 
+- a selector that contains 1 class is more specific than one with 1000 elements 
+- the univeral selector * has no specificity value (0, 0, 0, 0)
+- rely more on specificity than on the order of selectors 
+- rely on order when using 3rd-party stylesheets - always put your author stylesheet last 
+
+---------------------------------------------------------
+
+if you use another unit other than pixels it will ultimately be converted to pixels 
+
+why should we size stuff based on ems and rems?
+
+- more robust responsive layouts
+- em, rem (font based)
+- vh, vw (viewport based)
+
+summary:
+
+    - each property has an initial value, used if nothing is declared (if there is no inheritance)
+    - browsers specify a root font-size for each page (usually 16px)
+    - percentages and relative values are always converted to pixels
+    - percentages are measured relative to their parent's font-size, if used to specify font-size
+    - percentages are measured relative to their parent's width, if used to specify lengths 
+    - em are measured relative to their parent font-size, if used to specify font-size
+    - em are measured relative to the current font-size, if used to specify lengths 
+    - rem are always measured relative to the document's root font-size
+    - vh and vw are simply percentage measurements of the viewport's height and width
+
+---------------------------------------------------------
+
+inheritance 
+
+- inheritance passes the values for some specific properties from parents to children - more maintainable code 
+- properties related to text are inherited: font-family, font-size, color, etc 
+- the computed value of a property is what gets inherited, not the declared value 
+- inheritance of a property only works if no one declares a value for that property 
+- the inherit keyword forces inheritance on a certain property 
+- the initial keyword resets a property to its initial value 
+
+---------------------------------------------------------
+
+converting px to rem 
+
+- how and why to use rem units in our project 
+- a great workflow for converting px to rem 
+- rem is a relative unit
+- rem is a lot easier to use than em
+- should use % for html font size (62.5% of 16 = 10)
+- add box-sizing: border-box to body, then in global (*) use box-sizing: inherit
+- should use *::after, *::before with *
+
+
+1. change html font size to rem (using 10 pixels for ease of use)(use 62.5% for font-size)
+2. go through css and change pixels to rem (based on 10px)
+
+---------------------------------------------------------
+
+how css renders a website: the visual formatting model 
+
+css visual formatting modal - algorithm that calculates boxes and determines the layout of these boxes, for each 
+element in the render tree, in order to determine the final layout of the page 
+
+- dimensions of boxes: the box model 
+- box type: inline, block and inline-block
+- positioning scheme: floats and positioning 
+- stacking contexts 
+- other elements in the render tree 
+- viewport size, dimensions of images, etc 
+
+box-sizing: border-box 
+    - border and padding do not get added to dimensions of box
+
+box types 
+
+- inline
+    > content is distributed in lines 
+    > occupies only content's space 
+    > no line-breaks 
+    > no heights and widths 
+    > padding and margins only horizontal (left and right)
+- block 
+    > flex, list-item and table are block 
+    > elements formatted visually as blocks 
+    > 100% of parents with 
+    > vertically, one after another 
+    > box-model applies
+- inline block 
+    > a mix of block and inline 
+    > occupies only content's space 
+    > no line-breaks 
+    > box-model applies
+
+positioning 
+    - normal flow
+        > default positioning scheme 
+        > not floated; not absolutely positioned 
+        > elements laid out according to their source order 
+        > default - position: relative
+    - floats
+        > element is removed from the normal flow 
+        > text and lineline elements will wrap around the floated element 
+        > the container will not adjust its height to the element 
+        > float left & right
+    - absolute positioning
+        > element is removed from the normal flow 
+        > no impact on surrounding content or elements 
+        > we use top, bottom, left, right to offset the element from its relatively positioned container 
+        > position absolute & fixed 
+
+stacking contexts 
+    - which order elements are rendered on the page 
+    - z index 
+
+---------------------------------------------------------
+
+css architecture, components, and BEM 
+
+- clean 
+- modular 
+- reusable 
+- ready for growth 
+
+think - build - architect 
+    > think about the layout of your webpage or web app befor ewriting code 
+    > build your layout in html and css with a consistent structure for naming classes 
+    > create a logical architecture for your css with files and folders 
+
+think
+    - component driven design 
+    - modular building blocks that make up interfaces 
+    - held together by the layout of the page 
+    - reusable across a project, and between different projects 
+    - independent allowing us to use them anywhere on the page 
+
+build 
+    - BEM: block element modifier 
+        > block: standalone component that is meaningful on its own 
+        > element: part of a block that has no standalone meaning 
+        > modifier: a different version of a block or an element 
+
+architect 
+    - 7-1 pattern 
+    - 7 different folders for partial sass files and 1 main sass file to import all other files into a compiled css stylesheet 
+    - folders 
+        > base - basic project definitions 
+        > components - one file for each component 
+        > layout - overall layout 
+        > pages - styles for specific pages 
+        > themes - different themes
+        > abstracts - doesn't output any css (variables, mixins)
+        > vendors - 3rd party css 
+
+---------------------------------------------------------
+
+implementing BEM in the natours project 
+
+- how to use the BEM method in practice 
+
+
+    
+
+
