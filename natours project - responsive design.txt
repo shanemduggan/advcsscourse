@@ -76,3 +76,65 @@ jonas's breakpoints
 --------------------------------
 
 
+sass mixins to write media queries 
+
+- how to use a powerful sass mixing to write all our media queries 
+- how to use the @content and @if sass directives 
+- taking advantage of chrome devtools for responsive design 
+
+
+
+--------------------------------
+
+
+overview of responsive images 
+
+responsive images - the goal of responsive images is to server the right image to the right screen and device, 
+                    in order to avoid downloading unnecessary large images on smaller screens 
+    > image sizes 
+        - desktop image - 1mb
+        - mobile image - 200kb
+
+when to use responsive images 
+    1. resolution switching (decrease image resoution on smaller screen)
+    2. density switching (half the image resolution on @1x screen)
+        - low res and high res screens 
+            > low are normal pc screens (use 1px on screen to display 1px of design)
+            > high are in smart phones and some computers (use 2px on scren to display 1px of design)
+    3. art direction (different image on smaller screen)
+
+
+--------------------------------
+
+
+responsive images in html - art direction & density switching 
+
+- how to use the srcset attribute on the <img> and <source> elements, together with density descriptors
+- how and why to use the <picture> element for art direction 
+- how to write media queries in html
+
+
+--------------------------------
+
+
+responsive images in html - density & resolution switching 
+
+- how to allow the browser to decide the best image to download, using the srcset attribute, width descriptors,
+and the sizes attribute of the <img> element
+
+
+--------------------------------
+
+
+responsive images in css 
+
+- how to implement responsive images in css 
+- how to use resolution media queries to target high-resolution screens with 2x 
+- how to combine multiple conditions in media queries
+
+
+--------------------------------
+
+
+
+--------------------------------
