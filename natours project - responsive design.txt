@@ -1,0 +1,78 @@
+
+
+mobile first vs desktop first and break points
+
+responsive design strategies
+
+desktop first 
+    - start writing css for the desktop: large screens 
+    - then media quieries shrink design to smaller screens 
+    - more traditional 
+    - easier to learn
+    - media queries to test for max-width
+
+mobile first 
+    - start writing css for mobile devices: small screens
+    - then media queries expand design to a large desktop screen 
+    - forces us to reduce websites and apps to the absolute essentials 
+    - tests for min-width
+
+max-width and min-width
+    - desktop first 
+        > initial desktop-first code goes in the larger range (~1200px)
+        > if screen has max width of 600px or smaller, use this design 
+            - maximum width at which media query still applies 
+        > if two media queries are true, code in both queries will apply 
+            - the bottom most media query will take precedents 
+            - the order of code is important
+    - mobile first 
+        > initial mobile-first code goes into smaller range (~0-600px)
+        > if screen has a min width of 600px or larger, use this design 
+            - minimum width at which media query still applies 
+
+mobile first pros/cons
+    - pros 
+        > 100% optimised for the mobile experience 
+        > reduces websites and apps to the absolute essentials 
+        > results in smaller, faster and more efficient products 
+        > prioritizes content over aesthetic design, which may be desirable
+    - cons 
+        > the desktop version might feel overly empty and simplistic 
+        > more difficult and counterintuitive to develop 
+        > less creative freedom, making it more difficult to create distinctive products 
+        > clients are used to see a desktop version of the site as a prototype 
+        > do your users even use the mobile internet? what's the purpose of your website? 
+
+selecting our breakpoins: the options 
+    - bad 
+        > using the width of popular devices
+        > optimizing for one specific device, ignoring users of other devices 
+        > not future proof
+    - good (will be using this way for natours)
+        > look at common devices and group them then create media queries around the groups 
+            - ie. mobile phones, tablets height / width, laptops 
+    - perfect
+        > ignore devices all together and only look at your content and design 
+        > start at one width and increase/decrease width, once design breaks insert a new breakpoint
+        > this approach can be difficult 
+        > without contraints of a few predefined breakpoints it's hard to find the best ones 
+    
+selecting our breakpoints: the good approach 
+
+breakpoints for:
+    - phones 
+    - portrait tablets 
+    - landscape tablets 
+    - desktop
+
+jonas's breakpoints 
+    - phone (max 600px)
+    - tablet portrait (900px)
+    - tablet landscape (1200px)
+    - desktop (1800px)
+    - big desktop (1800px+)
+
+
+--------------------------------
+
+
