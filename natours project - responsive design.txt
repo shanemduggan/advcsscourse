@@ -161,11 +161,19 @@ simple build process - sequence of tasks we perform automatically resulting in f
 main.sass ---- compiliation -----> style.comp.css ---- concatenation ----> [icon-font.css, style.concat.css] ------ 
                prefixing ----> style.prefix.css ----- compressing ----> style.css 
 
-removing scripts from package.json:
-
-- "old-compile:sass": "node-sass sass/main.scss css/style.css -w -r",
-- "start": "live-server"
-
-
 
 --------------------------------
+
+
+wrapping up - final considerations 
+
+responsive design will not work without this line:
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    says website should be rendered with width of device 
+
+handling hover effects on tablets / mobile
+
+should comment css (for yourself and others)
+
+
