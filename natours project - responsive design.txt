@@ -136,5 +136,36 @@ responsive images in css
 --------------------------------
 
 
+testing for browser support with @supports 
+
+- how to use @supports feature queries 
+- implement graceful degradation on selected properties 
+- how to use backdrop-filter
+
+course was made in 2017
+
+    - many of the new css features i showed you are highly experimental and only work in top modern browsers 
+    - always check caniuse.com before using a modern css property in production 
+    - use graceful degradataion with @supports 
+        > top notch experience for top browers 
+        > providing a reduced version for lower browsers 
+
+
+--------------------------------
+
+
+setting up a simple build process with npm scripts 
+
+simple build process - sequence of tasks we perform automatically resulting in files ready for production
+
+main.sass ---- compiliation -----> style.comp.css ---- concatenation ----> [icon-font.css, style.concat.css] ------ 
+               prefixing ----> style.prefix.css ----- compressing ----> style.css 
+
+removing scripts from package.json:
+
+- "old-compile:sass": "node-sass sass/main.scss css/style.css -w -r",
+- "start": "live-server"
+
+
 
 --------------------------------
