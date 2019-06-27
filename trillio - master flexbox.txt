@@ -1,0 +1,58 @@
+
+flexbox: an overview of the philosophy behind flexbox (very important)
+
+flexbox
+    - is a new module in css3 that makes it easy to align elements to one another, in different directions and orders 
+    - the main idea behind flexbox is to give the container the ability to expand and to shrink elements to best 
+      use all the available space 
+    - flexbox replaces float layouts, using less and more readable and logical code 
+    - flexbox completely changes the way that we build one dimensional layouts 
+    - a true revolution in css 
+
+main flexbox concepts 
+    - parent container: flex container 
+    - children: flex items 
+    - display: 'flex-inline' - behaves like inline block element 
+    - direction children are layed out are the main axis 
+        > other direction is cross axis 
+
+flexbox properties overview 
+    - container 
+        > flex-direction (row - default, row-reverse, column, column-reverse)
+        > flex-wrap (nowrap - default, wrap, wrap-reverse)
+        > justify-content (flex-start - default, center, space-between, space-around, space-evenly)
+            - defines the position of the items on the main axis 
+        > align-items (stretch - default, flex-start, flex-end, center, baseline)
+            - defines the position of the items on the cross axis
+        > align-content (stretch - default, flex-start, flex-end, center, space-between, space-around)
+            - only applies when there is more than one row
+            - defines how rows are aligned on the cross axis if there is empty space
+    
+    - item 
+        > align-self (auto - default, stretch, flex-start, flex-end, center, baseline)
+            - similar to align-items for one item 
+            - can change alignment of one item 
+        > order (0 - default, integer)
+            - order one specific item will be ordered in the container 
+            - helpful for reordering items 
+        > flex-grow (0 - default, integer)
+            - how much an item can grow
+        > flex-shrink (1 - default, integer)
+            - how much an item can shrink
+        > flex-basis (auto - default, length)
+            - base width
+        > flex: (flex-grow flex-shrink flex-basis)
+                (int, int, len)
+        
+    
+---------------------------------
+
+
+
+
+---------------------------------
+
+
+
+
+---------------------------------
