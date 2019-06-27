@@ -42,15 +42,51 @@ flexbox properties overview
         > flex-basis (auto - default, length)
             - base width
         > flex: (flex-grow flex-shrink flex-basis)
-                (int, int, len)
+                (integer, integer, length)
         
     
 ---------------------------------
 
 
+a basic intro to flexbox: flex container 
+
+https://codepen.io/shanemduggan/pen/EBbERm
 
 
 ---------------------------------
+
+
+a basic intro to flexbox: flex items
+
+https://codepen.io/shanemduggan/pen/KjyRKM
+
+flex items order starts at 0
+    - to bring it to front add negative number (-1)
+    - to bring it to the end add positive number (1+)
+
+flex-shrink: 0 - doesn't allow element to shrink on resize
+
+
+---------------------------------
+
+
+basic intro to flexbox: adding more flex items 
+
+https://codepen.io/shanemduggan/pen/agVGWK
+
+if using flex-wrap, can control space between rows with align-content 
+
+
+---------------------------------
+
+
+trillo - project overview 
+
+
+
+
+---------------------------------
+
 
 
 
