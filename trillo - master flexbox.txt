@@ -83,10 +83,52 @@ if using flex-wrap, can control space between rows with align-content
 trillo - project overview 
 
 
+---------------------------------
+
+
+defining project settings and custom properties 
+
+- how and why to use css custom properties
+
+three simple files 
+    - base settings
+    - overall layout of app 
+    - smaller components 
+
+why css variables?
+    - don't need a preprocessor 
+    - can handle natively
+    - can be manipulated in javascript 
+    - easier to use in calc function 
+    - can be inherited 
 
 
 ---------------------------------
 
+
+building the overall layout 
+
+- how to think about the overall layout of an app 
+- use flexbox in a real-world project for the first time
+
+
+---------------------------------
+
+
+building the header - part 1
+
+- why to use svg icons vs font icons 
+- how to find, generate and use svg sprites in html
+- how to change the color of an svg icon in css 
+- how to use more advanced flexbox alignment techniques, including justify-content, align-items, align-self and flex
+
+
+---------------------------------
+
+
+
+
+---------------------------------
 
 
 
