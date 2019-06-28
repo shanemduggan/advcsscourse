@@ -122,6 +122,16 @@ building the header - part 1
 - how to change the color of an svg icon in css 
 - how to use more advanced flexbox alignment techniques, including justify-content, align-items, align-self and flex
 
+problems with icon fonts 
+    - really just a hack using icons 
+    - icon fonts fail more often that you think
+    - screen readers trying to read out icon fonts and failing 
+    - best practice to move away from icon fonts and use svg 
+
+svg - scalable vector graphics 
+
+
+
 
 ---------------------------------
 
