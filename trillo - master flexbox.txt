@@ -131,9 +131,15 @@ problems with icon fonts
 svg - scalable vector graphics 
 
 
-
-
 ---------------------------------
+
+
+building the navigation 
+
+- how to use scaleY and multiple transition properties with different settings, to create a creative hover effect 
+- how and why to use the currentColor css variable 
+- how to use some more advanced flexbox alignment techniques, including flex-direction, justify-content and align-items 
+
 
 
 
