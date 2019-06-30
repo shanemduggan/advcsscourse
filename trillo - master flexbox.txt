@@ -141,6 +141,28 @@ building the navigation
 - how to use some more advanced flexbox alignment techniques, including flex-direction, justify-content and align-items 
 
 
+---------------------------------
+
+
+building the hotel overview 
+
+- how to create an infinite animation 
+- how to use margin: auto with flexbox and why it's so powerful 
+- continue to use flexbox properties for each positioning and alignment
+
+
+---------------------------------
+
+
+building the description section 
+
+- continue to use flexbox, including flex-wrap to build a multi-column list 
+- how and why to use css masks with mask-image and mask-size
+
+
+---------------------------------
+
+
 
 
 
