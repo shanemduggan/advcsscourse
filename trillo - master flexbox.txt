@@ -163,7 +163,17 @@ building the description section
 ---------------------------------
 
 
+building the user reviews section 
 
+- continue using and practicing flexbox
+
+
+---------------------------------
+
+
+building the cta section 
+
+- creative and modern hover effect
 
 
 ---------------------------------
