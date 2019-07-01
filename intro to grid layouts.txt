@@ -1,0 +1,75 @@
+why css grid: a whole new mindset 
+
+css grid 
+    - css grid layout is a brand new module that brings a two-dimensional grid system to css for the first time 
+    - css grid replaces float layouts, using less and more readable and logical css and html 
+    - css grid works perfectly together with flexbox, which is best to handle one-dimensional components and layouts 
+    - css grid completely changes the way that we envision and build two-dimensional layouts 
+
+css grid terminology
+    - column axis 
+    - row axis 
+    - grid container (display: grid, grid-inline)
+    - grid items 
+    - grid track/row
+    - grid track/column
+    - gutter 
+    - grid area 
+    - grid cell 
+
+grid properties 
+
+container 
+    > grid-template-rows 
+    > grid-template-columns
+    > grid-template-areas 
+    > grid template (combined)
+
+    > grid-row-gap 
+    > grid-column-gap 
+    > grid-gap (combined)
+
+    > justify-items 
+    > align-items 
+    > justify-content 
+    > align-content 
+
+    > grid-auto-rows 
+    > grid-auto-columns
+    > grid-auto-flow 
+
+item
+    > grid-area (all combined)
+    > grid-row-start 
+    > grid-row-end 
+    > grid-row (combined)
+    > grid-column-start 
+    > grid-column-end 
+    > grid-column (combined)
+
+    > justify-self
+    > align-self 
+    > order 
+
+
+----------------------------------
+
+
+creating our first grid 
+
+https://codepen.io/shanemduggan/pen/pXLNge
+
+
+----------------------------------
+
+
+
+
+
+----------------------------------
+
+
+
+
+
+----------------------------------
