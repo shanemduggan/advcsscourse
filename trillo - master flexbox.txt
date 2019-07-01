@@ -179,6 +179,13 @@ building the cta section
 ---------------------------------
 
 
+writing media queries - part 1
+
+- going to set breakpoints based on content breaks
 
 
 ---------------------------------
+
+
+trillo project: final considerations 
+
