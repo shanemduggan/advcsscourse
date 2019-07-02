@@ -63,7 +63,41 @@ https://codepen.io/shanemduggan/pen/pXLNge
 ----------------------------------
 
 
+grid challenge
 
+https://codepen.io/shanemduggan/pen/VJXBwY
+
+
+----------------------------------
+
+
+grid challenge - solution 
+
+https://codepen.io/shanemduggan/pen/BgrPjR
+
+
+----------------------------------
+
+
+naming grid lines / grid areas 
+
+https://codepen.io/shanemduggan/pen/zVWLNX
+
+
+----------------------------------
+
+
+implicit grids vs explicit grids 
+
+https://codepen.io/shanemduggan/pen/RzMepm
+
+
+----------------------------------
+
+
+aligning grid items 
+
+https://codepen.io/shanemduggan/pen/VJXEXO?editors=1100
 
 
 ----------------------------------
