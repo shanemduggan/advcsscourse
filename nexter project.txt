@@ -21,12 +21,35 @@ building the features section
 ------------------------------
 
 
+building the story section 
+
+- how to deal with overlapping grid items 
+- why images are special and behave differently than other grid items 
+- how to decide if flexbox is a better tool in certain situations
+
+
+------------------------------
+
+
+building the homes section 
+
+- how to build a rather complex component using a mix of css grid properties, overlapping and flexbox
+
+
+------------------------------
+
+
 
 
 
 
 ------------------------------
 
+
+
+
+
+------------------------------
 
 
 
