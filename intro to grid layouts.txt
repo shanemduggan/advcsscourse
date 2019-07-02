@@ -113,13 +113,15 @@ https://codepen.io/shanemduggan/pen/orqQej?editors=1100
 
 using min-content, max-content and the minmax() function 
 
-
+https://codepen.io/shanemduggan/pen/ewrBar
 
 
 ----------------------------------
 
 
+responsive layouts with auto fit and auto fill 
 
+https://codepen.io/shanemduggan/pen/jjxBBR
 
 
 ----------------------------------
