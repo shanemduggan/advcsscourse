@@ -9,7 +9,11 @@ building the overall layout
 ------------------------------
 
 
+building the features section 
 
+- how and why to create grids inside grids 
+- how to create a responsive component without media queries 
+- how to build a small component using css grid 
 
 
 
