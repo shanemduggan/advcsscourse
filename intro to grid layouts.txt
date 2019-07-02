@@ -103,6 +103,22 @@ https://codepen.io/shanemduggan/pen/VJXEXO?editors=1100
 ----------------------------------
 
 
+aligning tracks 
+
+https://codepen.io/shanemduggan/pen/orqQej?editors=1100
+
+
+----------------------------------
+
+
+using min-content, max-content and the minmax() function 
+
+
+
+
+----------------------------------
+
+
 
 
 
