@@ -16,8 +16,6 @@ building the features section
 - how to build a small component using css grid 
 
 
-
-
 ------------------------------
 
 
@@ -45,11 +43,13 @@ building the gallery
 - using object-fit together with images for grid items
 
 
-
 ------------------------------
 
 
+building the header 
 
+- how to manage vertical spacing in a responsive layout using css grid techniques 
+- how to use ::before and ::after as grid items
 
 
 ------------------------------
