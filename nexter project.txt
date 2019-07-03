@@ -39,6 +39,15 @@ building the homes section
 ------------------------------
 
 
+building the gallery 
+
+- how to create a complex grid-looking gallery 
+- using object-fit together with images for grid items
+
+
+
+------------------------------
+
 
 
 
